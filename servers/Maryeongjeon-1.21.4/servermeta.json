@@ -1,0 +1,26 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/Maryeongjeon/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "마령전",
+    "description": "Minecraft 1.21.4 (Fabric v0.17.2)",
+    "icon": "https://github.com/mchdistro/Maryeongjeon/raw/main/server-icon.png",
+    "address": "준우.온라인.한국",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.17.2"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": ["options.txt", "config/**/**.**", "shaderpacks/ComplementaryUnbound_r5.5.1.zip.txt"]
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Maryeongjeon-1.21.4",
+      "name": "마령전",
+      "description": "Minecraft 1.21.4 (Fabric v0.17.2)",
+      "icon": "https://github.com/mchdistro/Maryeongjeon/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "준우.온라인.한국",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1915305,
+            "MD5": "72dd698d701202d46303fc913cfcbf23",
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.17.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "928b926a138d715f481806e74570e979",
+                "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/repo/versions/1.21.4-fabric-0.17.2/1.21.4-fabric-0.17.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504156,
+                "MD5": "aa4a43d5b0e9abf4fcb57520ffeb0019",
+                "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.architectury.utils:architectury:15.0.3@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 589645,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/architectury-15.0.3-fabric.jar",
+            "MD5": "29796a5960d833cf95d6f46668c13d55"
+          }
+        },
+        {
+          "id": "me.axieum.mcmod.authme.impl:authme:9.0.1+1.21.4@jar",
+          "name": "Auth Me",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 376047,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/authme-fabric-9.0.1+1.21.4.jar",
+            "MD5": "3c220399e5c34dae32224818c7acaa6c"
+          }
+        },
+        {
+          "id": "kr.shihyeon:blurserveraddress:1.2.0+mc1.21.2@jar",
+          "name": "BlurServerAddress",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11418,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/blurserveraddress-fabric-1.2.0+mc1.21.2.jar",
+            "MD5": "1294fe12bfc2d2dbe8e4541c27873fd2"
+          }
+        },
+        {
+          "id": "com.ebicep:chatplus:2.6.0@jar",
+          "name": "ChatPlus",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 26736918,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/chatplus-fabric-2.6.0.jar",
+            "MD5": "335c0f0a72abca3a93892cae05cce1d8"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
+          "name": "Cloth Config v17",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1152857,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/cloth-config-17.0.144-fabric.jar",
+            "MD5": "07b7d5bc15bdc7387cf8890d0c460b54"
+          }
+        },
+        {
+          "id": "dev.terminalmc:commandkeys:2.3.11+1.21.4@jar",
+          "name": "CommandKeys",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 242160,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/commandkeys-fabric-2.3.11+1.21.4.jar",
+            "MD5": "1bc5e1fcf8dad67c54cdb67e7c2d12ed"
+          }
+        },
+        {
+          "id": "bot.colla:donation:2.0.2@jar",
+          "name": "Donation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 832983,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/donation-fabric-1.21.4-2.0.2.jar",
+            "MD5": "13e5465b5ed84d6b27082119c12e01fa"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.9.5@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 191899,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/dynamic-fps-3.9.5+minecraft-1.21.2-fabric.jar",
+            "MD5": "a018fcc8b46768ef5631e4af2a9b19a5"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.5.7@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1259758,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/emotecraft-fabric-for-MC1.21.4-2.5.7.jar",
+            "MD5": "c494ffe6670005391b7b4149a6fc890a"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.8.2@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471072,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/entityculling-fabric-1.8.2-mc1.21.4.jar",
+            "MD5": "3704560df9067f83a263cc78e2e42c25"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.3+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2148367,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/fabric-api-0.119.3+1.21.4.jar",
+            "MD5": "179994db46a00373614c47fb669d1dd3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.4+kotlin.2.2.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7387359,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/fabric-language-kotlin-1.13.4+kotlin.2.2.0.jar",
+            "MD5": "5edf1cfa6574e3e1e38c2e4f1b5a557e"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.2.13@jar",
+          "name": "Iceberg",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 384309,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/Iceberg-1.21.4-fabric-1.2.13.jar",
+            "MD5": "f3a60a6bee522c264e56107ecca2bb82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.8.5+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 578977,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/koreanpatch-fabric-1.8.5+mc1.21.3.jar",
+            "MD5": "fcf0f59c7f45c751af04527080bc4e28"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.5.1@jar",
+          "name": "Legendary Tooltips",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66251,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/LegendaryTooltips-1.21.4-fabric-1.5.1.jar",
+            "MD5": "f173a41f6a01310d31bc5d1eb7f55f92"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.21.4-v2.11.0@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 321286,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/NoChatReports-FABRIC-1.21.4-v2.11.0.jar",
+            "MD5": "47bd3acbbaaf09dae1c5142dc5b3f41c"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.5@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12191569,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.5.jar",
+            "MD5": "dde3cf502defa8513b1fb98afbc2dd11"
+          }
+        },
+        {
+          "id": "generated.fabricmod:prism:1.0.10@jar",
+          "name": "Root project 'Prism'",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 61631,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/Prism-1.21.4-fabric-1.0.10.jar",
+            "MD5": "66051303e3433bc10796c2c92f57c7da"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.6-MC1.21.4@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 154830,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/WI-Zoom-1.6-MC1.21.4.jar",
+            "MD5": "1062016a1608823555c1bf16fafeb6cd"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1733101,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/fabricmods/required/Xaeros_Minimap_25.2.10_Fabric_1.21.4.jar",
+            "MD5": "4d8ed980c7e2df1810a1b629660c5b32"
+          }
+        },
+        {
+          "id": "authme.jsonc",
+          "name": "authme.jsonc",
+          "type": "File",
+          "artifact": {
+            "size": 1121,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/authme.jsonc",
+            "path": "config/authme.jsonc"
+          }
+        },
+        {
+          "id": "balm-client.toml",
+          "name": "balm-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 786,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/balm-client.toml",
+            "path": "config/balm-client.toml"
+          }
+        },
+        {
+          "id": "balm-common.toml",
+          "name": "balm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 786,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/balm-common.toml",
+            "path": "config/balm-common.toml"
+          }
+        },
+        {
+          "id": "chatplus-v2.5.0.json",
+          "name": "chatplus-v2.5.0.json",
+          "type": "File",
+          "artifact": {
+            "size": 10275,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/chatplus/chatplus-v2.5.0.json",
+            "path": "config/chatplus/chatplus-v2.5.0.json"
+          }
+        },
+        {
+          "id": "commandkeys.json",
+          "name": "commandkeys.json",
+          "type": "File",
+          "artifact": {
+            "size": 2909,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/commandkeys.json",
+            "path": "config/commandkeys.json"
+          }
+        },
+        {
+          "id": "commandkeys.unreadable.json",
+          "name": "commandkeys.unreadable.json",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/commandkeys.unreadable.json",
+            "path": "config/commandkeys.unreadable.json"
+          }
+        },
+        {
+          "id": "cubes-without-borders.json",
+          "name": "cubes-without-borders.json",
+          "type": "File",
+          "artifact": {
+            "size": 202,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/cubes-without-borders.json",
+            "path": "config/cubes-without-borders.json"
+          }
+        },
+        {
+          "id": "emotecraft.json",
+          "name": "emotecraft.json",
+          "type": "File",
+          "artifact": {
+            "size": 1095,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/emotecraft.json",
+            "path": "config/emotecraft.json"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1829,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/entityculling.json",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/fabric/indigo-renderer.properties",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "ferritecore.mixin.properties",
+          "name": "ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1525,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/ferritecore.mixin.properties",
+            "path": "config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1060,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/immediatelyfast.json",
+            "path": "config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 312,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "legendarytooltips.toml",
+          "name": "legendarytooltips.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9053,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/legendarytooltips.toml",
+            "path": "config/legendarytooltips.toml"
+          }
+        },
+        {
+          "id": "NCR-Client.json",
+          "name": "NCR-Client.json",
+          "type": "File",
+          "artifact": {
+            "size": 566,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/NoChatReports/NCR-Client.json",
+            "path": "config/NoChatReports/NCR-Client.json"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1213,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/plasmovoice/client.toml",
+            "path": "config/plasmovoice/client.toml"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 685,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/sodium-options.json",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/xaerominimap-common.txt",
+            "path": "config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3651,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/xaerominimap.txt",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/xaerominimap_entities.json",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip",
+          "name": "ComplementaryUnbound_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456332,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "MD5": "576ef06da170458879f3a03e685d487a",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip.txt",
+          "name": "ComplementaryUnbound_r5.5.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 203,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip.txt",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
