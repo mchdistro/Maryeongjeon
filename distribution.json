@@ -546,6 +546,17 @@
           }
         },
         {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 214,
+            "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/servers.dat",
+            "MD5": "51dd3f0aa72aa93baf5717088dc14f06",
+            "path": "servers.dat"
+          }
+        },
+        {
           "id": "ComplementaryUnbound_r5.5.1.zip",
           "name": "ComplementaryUnbound_r5.5.1.zip",
           "type": "File",
