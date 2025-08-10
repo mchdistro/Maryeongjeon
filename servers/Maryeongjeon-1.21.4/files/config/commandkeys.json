@@ -50,7 +50,7 @@
           "spaceTicks": 0,
           "keybind": {
             "version": 0,
-            "keyName": "key.keyboard.grave.accent",
+            "keyName": "key.keyboard.b",
             "limitKeyName": "key.keyboard.unknown"
           },
           "altKeybind": {
@@ -90,6 +90,34 @@
             {
               "version": 1,
               "string": "/map",
+              "delayTicks": 0
+            }
+          ]
+        },
+        {
+          "version": 6,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": true,
+          "conflictStrategy": "SUBMIT",
+          "sendMode": "SEND",
+          "activationType": "HOLD",
+          "spaceTicks": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.c",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "string": "/shootmodechange",
               "delayTicks": 0
             }
           ]

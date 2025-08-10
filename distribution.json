@@ -380,7 +380,7 @@
           "name": "commandkeys.json",
           "type": "File",
           "artifact": {
-            "size": 2909,
+            "size": 3695,
             "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/config/commandkeys.json",
             "path": "config/commandkeys.json"
           }
@@ -540,7 +540,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 5530,
+            "size": 5542,
             "url": "https://github.com/mchdistro/Maryeongjeon/raw/main/servers/Maryeongjeon-1.21.4/files/options.txt",
             "path": "options.txt"
           }
